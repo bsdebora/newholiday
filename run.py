@@ -13,7 +13,7 @@ messages = []
 
 
 app.config["MONGO_DBNAME"] = 'sample_airbnb'
-app.config["MONGO_URI"] = 'mongodb+srv://root:RootUser@myfirstcluster.zhfps.mongodb.net/sample_airbnb?retryWrites=true&w=majority'
+app.config["MONGO_URI"] = 'mongodb+srv://root:RootUser@cluster0.yvawf.mongodb.net/sample_airbnb?retryWrites=true&w=majority'
 
 mongo = PyMongo(app)
 
